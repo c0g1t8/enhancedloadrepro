@@ -24,3 +24,15 @@ cd maui-blazor
 dotnet new maui-blazor
 popd
 ```
+
+```powershell
+dotnet new solution
+dotnet sln add .\server-hosted\None\
+dotnet sln add .\server-hosted\Server\
+dotnet sln add .\server-hosted\WebAssembly\WebAssembly\
+dotnet sln add .\server-hosted\WebAssembly\WebAssembly.Client\
+dotnet sln add .\server-hosted\Auto\Auto\
+dotnet sln add .\server-hosted\Auto\Auto.Client\
+dotnet sln add .\wasm\
+dotnet sln add .\maui-blazor\
+```
